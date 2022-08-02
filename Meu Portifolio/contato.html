@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+  <div class="navbar container">
+    <a href="index.html" style="text-decoration:none"><img class="icone" src="./inicio.png"></a>
+    <a href="formacao.html" style="text-decoration:none"> <img class="icone" src="./formacao.png"></a>
+    <a  href="https://www.linkedin.com/in/wellengton-machado/" target="_blank"> <img class="icone" src="./LK.png"></a>
+    <a  href="https://github.com/User-Wellengton" target="_blank"><img class="icone" src="./github.jpg"></a>
+    <a  href="https://www.instagram.com/wellengton.eng/" target="_blank"><img class="icone" src="./insta.png"></a>
+    <a  href="https://www.twitch.tv/wellpatron" target="_blank"><img class="icone" src="./twitch.png"></a>
+    <a  href="contato.html"><img class="icone" src="./contato.png"></a>
+  </div>
+  <div class="container ">
+    <form name="meu_form">
+
+      <h1>Entre em contato</h1>
+
+      <div class="formulario">
+        <label for="nome"> Nome :</label>
+        <input type="text"  placeholder="Informe seu nome" required="required" name="nome" />
+
+
+
+        <label for="fone">Fone:</label>
+        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="emailid" placeholder="seuemail@mail.com" name="email" />
+
+
+
+        <textarea placeholder="Deixe sua cometário"></textarea>
+
+
+        <input  type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+      </div>
+    </form>
+  </div>
+
+
+</body>
+
+</html>
